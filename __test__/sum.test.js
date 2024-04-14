@@ -1,9 +1,7 @@
-const Celular = require('../src/Celular')
-test('Celular', () => {
-    const celular = new Celular('Samsung', 'Blanco', 'A22');
-    expect(celular.getMarca()).toBe('Samsung');
-    expect(celular.getModelo()).toBe('A22');
-    expect(celular.getColor()).toBe('Blanco');
-   
-    
+const Pizza = require('../src/IPizza')
+test("Pizza",()=> {
+    const Pizza= new Pizza();
+    expect(pizza.getName()).toBe("Pizza")
+    expect(pizza.getPrice()).toBe(10)
+    expect(pizza.getDescription()).toBe("Masa Casera-Salsa-Queso")
 })
