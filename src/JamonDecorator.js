@@ -8,6 +8,6 @@ export default class JamonDecorator extends PizzaDecorator{
         return this.pizza.getName()+" con jamon";
     }
     getDescription(){
-        return this.pizza.getDescription()+", jamon";
+        return this.pizza.getDescription()+"-Jamon";
     }
 }

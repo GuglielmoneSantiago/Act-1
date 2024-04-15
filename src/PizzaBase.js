@@ -7,6 +7,6 @@ export default class PizzaBase extends IPizza{
         "Pizza"
     }
     getDescription(){
-        "Masa, Queso, Salsa"
+        "Masa-Salsa-Queso"
     }
 }
